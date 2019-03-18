@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "umi-plugin-react": "^1.7.0"
+  },
+  "dependencies": {
+    "enquire-js": "^0.2.1",
+    "rc-queue-anim": "^1.6.12",
+    "rc-scroll-anim": "^2.5.6"
+  }
+}
