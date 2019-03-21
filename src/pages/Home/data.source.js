@@ -46,7 +46,7 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: (
       <span>
-        <p>专注企业级应用集成解决方案，助力企业互联网化转型建设</p>
+        <p>专注企业级应用集成解决方案，助力企业数字化转型</p>
       </span>
     ),
   },
