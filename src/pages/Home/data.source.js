@@ -29,7 +29,8 @@ export const Nav01DataSource = {
       { name: 'item0', a: { children: '首页', href: '#' } },
       { name: 'item1', a: { children: '产品与服务', href: '#' } },
       { name: 'item2', a: { children: '客户与案例', href: '#' } },
-      { name: 'item3', a: { children: '关于我们', href: '#' } },
+      { name: 'item3', a: { children: '大事记', href: '/history' } },
+      { name: 'item4', a: { children: '关于我们', href: '#' } },
     ],
   },
   mobileMenu: { className: 'header0-mobile-menu' },
@@ -168,7 +169,7 @@ export const Content00DataSource = {
             className: 'content0-title',
             children: (
               <span>
-                <p>智慧制造管理平台</p>
+                <p>智能制造信息管理平台</p>
               </span>
             ),
           },
@@ -264,7 +265,9 @@ export const Content11DataSource = {
   content: {
     className: 'content1-content',
     children:
-      '“云中控”结合物联网、云计算、大数据技术，以数据为基础、设备为节点、流程为准绳、人员为中心，综合运用物联网、语音识别、图像识别、机器学习、AR等多项最新科技搭建的“云中控”工业物联网设备健康管理SaaS服务平台，为工业企业设备全生命周期管理提供全面技术支持，提高企业生产效率，降低企业运维、融资和备件采购成本。<br />',
+      <span>
+        “云中控”结合物联网、云计算、大数据技术，以数据为基础、设备为节点、流程为准绳、人员为中心，综合运用物联网、语音识别、图像识别、机器学习、AR等多项最新科技搭建的“云中控”工业物联网设备健康管理SaaS服务平台，为工业企业设备全生命周期管理提供全面技术支持，提高企业生产效率，降低企业运维、融资和备件采购成本。
+      </span>
   },
 };
 export const Content21DataSource = {
@@ -279,7 +282,7 @@ export const Content21DataSource = {
     className: 'content2-title',
     children: (
       <span>
-        <p>XTOMS - 智慧制造管理平台</p>
+        <p>xTOMS - 智能制造信息管理平台</p>
       </span>
     ),
   },
@@ -288,7 +291,7 @@ export const Content21DataSource = {
     children: (
       <span>
         <p>
-          XTOMS
+          xTOMS
           目前处于系统原型验证阶段，已经迭代到第5个版本。产品定位于解决企业在销售阶段、实施阶段及售后阶段，需要对外提高客户满意度，及时反馈商务活动的进展，方便问题跟踪；对内需要将所有执行阶段、各业务活动进行数字化管理，业务活动所产生的交付成果通过此平台进行集中管理。XTOMS
           还将最大限度的与企业已有系统进行系统间的集成，打通各系统之间的壁垒，让各业务部门在一个平台上完成整个商业活动，并且实现业务数据透明化，提高各专业业务人员及时沟通，及时了解业务进展，提高工作效率。
         </p>

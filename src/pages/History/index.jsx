@@ -3,9 +3,9 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav0 from './Nav0';
-import Content9 from './Content9';
-import Footer0 from './Footer0';
+import Nav0 from '../../components/Nav0';
+import Content9 from '../../components/Content9';
+import Footer0 from '../../components/Footer0';
 
 
 import {

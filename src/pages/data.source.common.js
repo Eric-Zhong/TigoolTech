@@ -12,9 +12,10 @@ export const HeaderNavDataSource = {
     className: 'header0-menu',
     children: [
       { name: 'item0', a: { children: '首页', href: '/' } },
-      { name: 'item1', a: { children: '产品与服务', href: '#' } },
-      { name: 'item2', a: { children: '客户与案例', href: '#' } },
-      { name: 'item3', a: { children: '关于我们', href: '/history' } }
+      { name: 'item1', a: { children: '产品与服务', href: '/products' } },
+      { name: 'item2', a: { children: '客户与案例', href: '/solutions' } },
+      { name: 'item3', a: { children: '大事记', href: '/history' } },
+      { name: 'item4', a: { children: '关于我们', href: '/aboutus' } },
     ],
   },
   mobileMenu: { className: 'header0-mobile-menu' },

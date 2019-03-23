@@ -4,30 +4,40 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
 import Nav0 from '../../components/Nav0';
-import Banner0 from '../../components/Banner0';
-import Content0 from '../../components/Content0';
-import Content1 from '../../components/Content1';
-import Content2 from '../../components/Content2';
-import Content5 from '../../components/Content5';
-import Content12 from '../../components/Content12';
+import Content9 from '../../components/Content9';
 import Footer0 from '../../components/Footer0';
+
 
 import {
   HeaderNavDataSource,
   FooterDataSource,
 } from '../data.source.common'
 
+import Banner1 from '../../components/Banner1';
+import Banner2 from '../../components/Banner2';
+import Content0 from '../../components/Content0';
+import Content4 from '../../components/Content4';
+import Content6 from '../../components/Content6';
+import Content7 from '../../components/Content7';
+import Content3 from '../../components/Content3';
+import Banner3 from '../../components/Banner3';
+import Content13 from '../../components/Content13';
+import Content8 from '../../components/Content8';
+
+
 import {
-  Nav01DataSource,
-  Banner00DataSource,
+  Nav00DataSource,
+  Banner10DataSource,
+  Banner20DataSource,
   Content00DataSource,
-  Content10DataSource,
-  Content20DataSource,
-  Content11DataSource,
-  Content21DataSource,
-  Content50DataSource,
-  Content120DataSource,
-  Footer00DataSource,
+  Content40DataSource,
+  Content60DataSource,
+  Content70DataSource,
+  Content30DataSource,
+  Banner30DataSource,
+  Content130DataSource,
+  Content80DataSource,
+  Footer10DataSource,
 } from './data.source';
 
 // import './less/antMotionStyle.less';
@@ -69,15 +79,21 @@ export default class Home extends React.Component {
   render() {
     const children = [
       <Nav0
-        id="Nav0_1"
-        key="Nav0_1"
-        dataSource={HeaderNavDataSource}
+        id="Nav0_0"
+        key="Nav0_0"
+        dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner0
-        id="Banner0_0"
-        key="Banner0_0"
-        dataSource={Banner00DataSource}
+      <Banner1
+        id="Banner1_0"
+        key="Banner1_0"
+        dataSource={Banner10DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Banner2
+        id="Banner2_0"
+        key="Banner2_0"
+        dataSource={Banner20DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content0
@@ -86,44 +102,48 @@ export default class Home extends React.Component {
         dataSource={Content00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content1
-        id="Content1_0"
-        key="Content1_0"
-        dataSource={Content10DataSource}
+      <Content4
+        id="Content4_0"
+        key="Content4_0"
+        dataSource={Content40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content2
-        id="Content2_0"
-        key="Content2_0"
-        dataSource={Content20DataSource}
+      <Content6
+        id="Content6_0"
+        key="Content6_0"
+        dataSource={Content60DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content1
-        id="Content1_1"
-        key="Content1_1"
-        dataSource={Content11DataSource}
+      <Content7
+        id="Content7_0"
+        key="Content7_0"
+        dataSource={Content70DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content2
-        id="Content2_1"
-        key="Content2_1"
-        dataSource={Content21DataSource}
+      <Content3
+        id="Content3_0"
+        key="Content3_0"
+        dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
+      <Banner3
+        id="Banner3_0"
+        key="Banner3_0"
+        dataSource={Banner30DataSource}
         isMobile={this.state.isMobile}
       />,
-      /*
-      <Content12
-        id="Content12_0"
-        key="Content12_0"
-        dataSource={Content120DataSource}
+      <Content13
+        id="Content13_0"
+        key="Content13_0"
+        dataSource={Content130DataSource}
         isMobile={this.state.isMobile}
       />,
-      */
+      <Content8
+        id="Content8_0"
+        key="Content8_0"
+        dataSource={Content80DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Footer0
         id="Footer0_0"
         key="Footer0_0"

@@ -18,50 +18,32 @@ let routes = [
     "component": require('../data.source.common.js').default
   },
   {
+    "path": "/Solutions",
+    "exact": true,
+    "component": require('../Solutions/index.jsx').default,
+    "eslint no-undef": 0
+  },
+  {
+    "path": "/Solutions/data.source",
+    "exact": true,
+    "component": require('../Solutions/data.source.js').default
+  },
+  {
+    "path": "/Products",
+    "exact": true,
+    "component": require('../Products/index.jsx').default,
+    "eslint no-undef": 0
+  },
+  {
+    "path": "/Products/data.source",
+    "exact": true,
+    "component": require('../Products/data.source.js').default
+  },
+  {
     "path": "/Home",
     "exact": true,
     "component": require('../Home/index.jsx').default,
     "eslint no-undef": 0
-  },
-  {
-    "path": "/Home/Banner0",
-    "exact": true,
-    "component": require('../Home/Banner0.jsx').default
-  },
-  {
-    "path": "/Home/Content0",
-    "exact": true,
-    "component": require('../Home/Content0.jsx').default
-  },
-  {
-    "path": "/Home/Content1",
-    "exact": true,
-    "component": require('../Home/Content1.jsx').default
-  },
-  {
-    "path": "/Home/Content12",
-    "exact": true,
-    "component": require('../Home/Content12.jsx').default
-  },
-  {
-    "path": "/Home/Content2",
-    "exact": true,
-    "component": require('../Home/Content2.jsx').default
-  },
-  {
-    "path": "/Home/Content5",
-    "exact": true,
-    "component": require('../Home/Content5.jsx').default
-  },
-  {
-    "path": "/Home/Footer0",
-    "exact": true,
-    "component": require('../Home/Footer0.jsx').default
-  },
-  {
-    "path": "/Home/Nav0",
-    "exact": true,
-    "component": require('../Home/Nav0.jsx').default
   },
   {
     "path": "/Home/data.source",
@@ -75,24 +57,20 @@ let routes = [
     "eslint no-undef": 0
   },
   {
-    "path": "/History/Content9",
-    "exact": true,
-    "component": require('../History/Content9.jsx').default
-  },
-  {
-    "path": "/History/Footer0",
-    "exact": true,
-    "component": require('../History/Footer0.jsx').default
-  },
-  {
-    "path": "/History/Nav0",
-    "exact": true,
-    "component": require('../History/Nav0.jsx').default
-  },
-  {
     "path": "/History/data.source",
     "exact": true,
     "component": require('../History/data.source.js').default
+  },
+  {
+    "path": "/AboutUs",
+    "exact": true,
+    "component": require('../AboutUs/index.jsx').default,
+    "eslint no-undef": 0
+  },
+  {
+    "path": "/AboutUs/data.source",
+    "exact": true,
+    "component": require('../AboutUs/data.source.js').default
   },
   {
     "component": () => React.createElement(require('/usr/local/lib/node_modules/umi/node_modules/_umi-build-dev@1.7.0@umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: false })
