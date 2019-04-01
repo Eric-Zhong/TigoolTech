@@ -18,6 +18,21 @@ let routes = [
     "component": require('../data.source.common.js').default
   },
   {
+    "path": "/customers/abb",
+    "exact": true,
+    "component": require('../customers/abb.js').default
+  },
+  {
+    "path": "/customers/crrc",
+    "exact": true,
+    "component": require('../customers/crrc.js').default
+  },
+  {
+    "path": "/customers/schneider",
+    "exact": true,
+    "component": require('../customers/schneider.js').default
+  },
+  {
     "path": "/Solutions",
     "exact": true,
     "component": require('../Solutions/index.jsx').default,
@@ -38,6 +53,23 @@ let routes = [
     "path": "/Products/data.source",
     "exact": true,
     "component": require('../Products/data.source.js').default
+  },
+  {
+    "path": "/Products/products.source",
+    "exact": true,
+    "component": require('../Products/products.source.js').default
+  },
+  {
+    "path": "/Products/sap",
+    "exact": true,
+    "component": require('../Products/sap.jsx').default,
+    "eslint no-undef": 0
+  },
+  {
+    "path": "/Products/xtoms",
+    "exact": true,
+    "component": require('../Products/xtoms.js').default,
+    "eslint no-undef": 0
   },
   {
     "path": "/Home",

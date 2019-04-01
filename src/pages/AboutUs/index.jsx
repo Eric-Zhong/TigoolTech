@@ -9,19 +9,12 @@ import {
 } from '../data.source.common'
 
 import Nav0 from '../../components/Nav0';
-import Banner1 from '../../components/Banner1';
 import Banner2 from '../../components/Banner2';
-import Content0 from '../../components/Content0';
-import Content4 from '../../components/Content4';
-import Content6 from '../../components/Content6';
-import Content7 from '../../components/Content7';
-import Content3 from '../../components/Content3';
-import Banner3 from '../../components/Banner3';
-import Content13 from '../../components/Content13';
 import Content8 from '../../components/Content8';
 import Footer0 from '../../components/Footer0';
 
 // import './less/antMotionStyle.less';
+import img_eric_xuzhong from './images/eric_xuzhong.jpg';
 
 let isMobile;
 enquireScreen((b) => {
@@ -44,9 +37,9 @@ const Banner20DataSource = {
         title: { className: 'banner2-title', children: '关于我们' },
         content: {
           className: 'banner2-content',
-          children: '一个高效的页面动画解决方案',
+          children: '我们是一群充满激情，渴望成功的年青人！',
         },
-        button: { className: 'banner2-button', children: 'Join us' },
+        button: { className: 'banner2-button', children: '加入我们' },
       },
     ],
   },
@@ -66,7 +59,7 @@ const Content80DataSource = {
           'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
         className: 'title-image',
       },
-      { name: 'title', children: '特邀嘉宾', className: 'title-h1' },
+      { name: 'title', children: '团队成员', className: 'title-h1' },
     ],
   },
   block: {
@@ -81,146 +74,16 @@ const Content80DataSource = {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: img_eric_xuzhong,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '徐中' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block1',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block2',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block3',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block4',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block5',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block6',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block7',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: 
+              <span>
+                <p>TigoolTech 总经理</p>
+                <p>xu.zhong@hotmail.com</p>
+              </span>,
           },
         },
       },

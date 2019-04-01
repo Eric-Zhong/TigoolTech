@@ -1,6 +1,6 @@
 import React from 'react';
 import img_logo_header from '../../assets/logo_header.png';
-import img_logo_home from '../../assets/logo_home.png';
+import img_logo_home from '../../assets/logo_tigooltech_white.png';
 import img_logo_abb from '../../assets/logo_abb.png';
 import img_logo_se from '../../assets/logo_se.png';
 import img_logo_microsoft from '../../assets/logo_microsoft.png';

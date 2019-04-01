@@ -9,7 +9,6 @@ import Content0 from '../../components/Content0';
 import Content1 from '../../components/Content1';
 import Content2 from '../../components/Content2';
 import Content5 from '../../components/Content5';
-import Content12 from '../../components/Content12';
 import Footer0 from '../../components/Footer0';
 
 import {
@@ -18,7 +17,6 @@ import {
 } from '../data.source.common'
 
 import {
-  Nav01DataSource,
   Banner00DataSource,
   Content00DataSource,
   Content10DataSource,
@@ -26,8 +24,6 @@ import {
   Content11DataSource,
   Content21DataSource,
   Content50DataSource,
-  Content120DataSource,
-  Footer00DataSource,
 } from './data.source';
 
 // import './less/antMotionStyle.less';
