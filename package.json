@@ -4,7 +4,10 @@
   },
   "dependencies": {
     "enquire-js": "^0.2.1",
+    "rc-banner-anim": "^2.2.2",
     "rc-queue-anim": "^1.6.12",
-    "rc-scroll-anim": "^2.5.6"
+    "rc-scroll-anim": "^2.5.6",
+    "rc-texty": "^0.2.0",
+    "react-sublime-video": "^0.2.5"
   }
 }
